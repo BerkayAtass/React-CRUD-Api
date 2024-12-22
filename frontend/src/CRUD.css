@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Sayfanın tamamını kaplar */
+    background-color: #f8f9fa;
+    /* Arkaplan rengi (isteğe bağlı) */
+}
+
+.table-container {
+    width: 100%;
+    /* Tablonun genişliği */
+    background-color: #ffffff;
+    /* Arkaplan rengi */
+    padding: 20px;
+    /* İçerik boşluğu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Hafif bir gölge */
+    border-radius: 10px;
+    /* Köşeleri yuvarlat */
+}
